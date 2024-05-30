@@ -55,7 +55,7 @@ class LabelAdapter:
         print("5 - Folhas largas")
         answer = input("\nWhich is this classification? -> ")
 
-        if int(answer) in (4, 5):
+        if answer in ("4", "5"):
             return answer
 
         print("\n--- Tipo inválido, tente novamente!\n")
@@ -66,7 +66,7 @@ class LabelAdapter:
         print("1 - Arbusto pequeno")
         answer = input("\nWhich is this classification? -> ")
 
-        if int(answer) in (0, 1):
+        if answer in ("0", "1"):
             return answer
 
         print("\n--- Tipo inválido, tente novamente!\n")
